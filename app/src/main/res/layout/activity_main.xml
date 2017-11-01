@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.java_oglen.jsonuserlogiregister.MainActivity"
+   android:orientation="vertical"
+
+>
+
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="Adınızı Giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="Soyadınızı Giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="Telefon Numaranızı Giriniz"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="Mail Adresinizi Giriniz"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="textPassword" />
+    <Button
+        android:onClick="kayitYap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Yap"/>
+</LinearLayout>
